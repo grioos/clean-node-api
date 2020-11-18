@@ -8,7 +8,10 @@
     "postinstall": "husky install"
   },
   "lint-staged": {
-    "*": ".lintstagedrc.json"
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
   },
   "author": "",
   "license": "ISC",
