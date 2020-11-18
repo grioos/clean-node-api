@@ -7,6 +7,9 @@
     "test": "jest",
     "postinstall": "husky install"
   },
+  "lint-staged": {
+    "*": ".lintstagedrc.json"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
