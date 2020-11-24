@@ -15,7 +15,7 @@ const makeSut = () => {
 describe('LoadUserByEmail Repository', () => {
   beforeAll(async () => {
     await MongoHelper.connect(process.env.MONGO_URL)
-    db = MongoHelper.db
+    db = await MongoHelper.getDb()
   })
 
   beforeEach(async () => {
@@ -49,5 +49,12 @@ describe('LoadUserByEmail Repository', () => {
       _id: fakeUser.ops[0]._id,
       password: fakeUser.ops[0].password
     })
+  })
+
+  test('Should throw if no userModel is provided', async () => {
+    const sut = new LoadUserByEmailRepository()
+    const promise = sut.load('any_email@mail.com')
+
+    expect(promise).rejects.toThrow()
   })
 })
