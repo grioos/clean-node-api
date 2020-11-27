@@ -1,6 +1,6 @@
 # Curso Gratuito de NodeJS
 
-Uma simples API RESTful construída com NodeJS, usando princípios de Clean Architecture, TDD e Design Patterns.
+Uma simples API REST construída com NodeJS, usando princípios de Clean Architecture, TDD e Design Patterns.
 
 ### Metodologias
 * Clean Architecture
