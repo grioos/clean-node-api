@@ -5,6 +5,8 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/grioos/clean-node-api)
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/grioos/clean-node-api)
 
+Uma simples API RESTful construída com NodeJS, usando princípios de Clean Architecture, TDD e Design Patterns.
+
 ### Metodologias
 * Clean Architecture
 * Convertional Commits
@@ -12,5 +14,29 @@
 * GitFlow
 * TDD
 * Use Cases
+
+### Iniciando
+Set a MongoDB database in the `env.js` file located in the following path: 
+```bash
+cd src/main/config
+```
+Instalar as dependências: 
+```bash
+npm i
+```
+Iniciar o servidor: 
+```bash
+npm start
+```
+
+### Testes
+Esses são alguns dos testes, outros podem ser encontrados no arquivo [package.json)](https://github.com/grioos/clean-node-api/blob/main/package.json)
+```bash
+# Teste unitário
+npm run test:unit
+
+# Teste de integração
+npm run test:integration
+```
 
 > ### [Link para o curso completo no Youtube](https://www.youtube.com/playlist?list=PL9aKtVrF05DyEwK5kdvzrYXFdpZfj1dsG)
