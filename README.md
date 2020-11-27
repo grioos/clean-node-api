@@ -17,15 +17,15 @@ Uma simples API RESTful construída com NodeJS, usando princípios de Clean Arch
 
 ### Iniciando
 ```bash
-# Instalar as dependências: 
+# Instalar as dependências
 npm i
 
-# Iniciar o servidor: 
+# Iniciar o servidor
 npm start
 ```
 
 ### Testes
-Esses são alguns dos testes, outros podem ser encontrados no arquivo [package.json)](https://github.com/grioos/clean-node-api/blob/main/package.json)
+Esses são alguns dos testes, outros podem ser encontrados no arquivo [package.json](https://github.com/grioos/clean-node-api/blob/main/package.json)
 ```bash
 # Teste unitário
 npm run test:unit
