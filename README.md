@@ -1,5 +1,5 @@
 # Curso Gratuito de NodeJS
-[![Build Status](https://travis-ci.com/grioos/clean-node-api.svg?branch=main)](https://travis-ci.com/grioos/clean-node-api.svg?branch=main)
+[![Build Status](https://travis-ci.com/grioos/clean-node-api.svg?branch=main)](https://travis-ci.com/github/grioos/clean-node-api)
 
 Uma simples API REST construída com NodeJS, usando princípios de Clean Architecture, TDD e Design Patterns.
 
