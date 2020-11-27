@@ -10,8 +10,8 @@
     "test:integration": "npm test -- --watchAll -c jest-integration-config.js",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage",
-    "postinstall": "husky install",
-    "test:coveralls": "npm run test:ci && coveralls < coverage/lcov.info"
+    "test:coveralls": "npm run test:ci && coveralls < coverage/lcov.info",
+    "postinstall": "husky install"
   },
   "lint-staged": {
     "*.js": [
