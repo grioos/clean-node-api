@@ -22,7 +22,7 @@ npm start
 ```
 
 ### Testes
-Esses são alguns dos testes, outros podem ser encontrados no arquivo [package.json](https://github.com/grioos/clean-node-api/blob/main/package.json)
+Estes são alguns dos testes, outros podem ser encontrados no arquivo [package.json](https://github.com/grioos/clean-node-api/blob/main/package.json)
 ```bash
 # Teste unitário
 npm run test:unit
