@@ -16,16 +16,11 @@ Uma simples API RESTful construída com NodeJS, usando princípios de Clean Arch
 * Use Cases
 
 ### Iniciando
-Set a MongoDB database in the `env.js` file located in the following path: 
 ```bash
-cd src/main/config
-```
-Instalar as dependências: 
-```bash
+# Instalar as dependências: 
 npm i
-```
-Iniciar o servidor: 
-```bash
+
+# Iniciar o servidor: 
 npm start
 ```
 
